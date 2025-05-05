@@ -12,3 +12,14 @@ Filter:
 let idades = alunos.map(getIdade);
 
 let idadesMaiorIdade = idades.filter((idade) => idade >= 18)
+
+
+const items = [
+  {name: 'Apple', price: 1},
+  {name: 'orange', price: 2},
+  {name: 'Mango', price: 3},
+  {name: 'Kiwe', price: 30},
+  {name: 'Morango', price: 10}
+]
+
+let total =  items.map((items) => items.price).filter((price) => price >= 10).reduce((contator, price) => contador + price, 0 )
