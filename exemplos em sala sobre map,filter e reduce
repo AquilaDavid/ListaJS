@@ -1,0 +1,7 @@
+let alnos = [
+  { nome: 'Maria', idade: 15},
+  {nome: 'Joana', idade: 16} , 
+  {nome: 'José', idade: 15} 
+];
+
+let idades = alunos.map((aluno) => {return aluno.idade})
