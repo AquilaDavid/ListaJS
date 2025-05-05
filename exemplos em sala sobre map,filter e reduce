@@ -5,3 +5,10 @@ let alnos = [
 ];
 
 let idades = alunos.map((aluno) => {return aluno.idade})
+
+
+Filter:
+
+let idades = alunos.map(getIdade);
+
+let idadesMaiorIdade = idades.filter((idade) => idade >= 18)
